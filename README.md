@@ -9,6 +9,8 @@ Et voilà.
 
 Cela donne la copie d'écran également à la racine de ce projet.
 
+Vous pouvez utilisez directement l'export jar du projet Studio à copier dans le nxserver/bundles et le jar compilé de ce projet maven donnés à la racine pour voir le résultat.
+
 *Résumé :*
 
 Donc pour ajouter la notion de notes sécurisées, il faut
