@@ -79,7 +79,7 @@ public class NoteManagerBean implements Serializable {
 		
 		// Which field the note will be added in ? 
 		String targetListSchema = erdfNote
-				.getPropertyValue(NOTE_SCHEMA + ":" + IS_SECURED_FIELD) == null || (Boolean) erdfNote
+				.getPropertyValue(NOTE_SCHEMA + ":" + IS_SECURED_FIELD) != null && (Boolean) erdfNote
 				.getPropertyValue(NOTE_SCHEMA + ":" + IS_SECURED_FIELD) ? SECURED_NOTE_SCHEMA
 				: UNSECURED_NOTE_SCHEMA;
 
