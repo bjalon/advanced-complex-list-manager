@@ -1,0 +1,9 @@
+<component name="org.nuxeo.erdf.linky.core.NotableDocument">
+
+   <extension target="org.nuxeo.ecm.core.api.DocumentAdapterService" point="adapters">
+       <adapter
+           class="org.nuxeo.erdf.linky.core.NotableDocument"
+           factory="org.nuxeo.erdf.linky.core.NotableDocumentFactory"/>
+   </extension>
+    
+</component>

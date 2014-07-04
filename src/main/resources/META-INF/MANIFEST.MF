@@ -4,6 +4,8 @@ Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
 Bundle-Version: 1.0.qualifier
 Bundle-Name: nuxeo-erdf-linky-core
+Nuxeo-Component: OSGI-INF/extensions/org.nuxeo.erdf.linky.core.Notable
+ Document.xml
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: nuxeo-erdf-linky-core
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
