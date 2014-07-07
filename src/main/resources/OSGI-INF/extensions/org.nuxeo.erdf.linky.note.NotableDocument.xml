@@ -2,8 +2,8 @@
 
    <extension target="org.nuxeo.ecm.core.api.DocumentAdapterService" point="adapters">
        <adapter
-           class="org.nuxeo.erdf.linky.core.NotableDocument"
-           factory="org.nuxeo.erdf.linky.core.NotableDocumentFactory"/>
+           class="org.nuxeo.erdf.linky.note.NotableDocument"
+           factory="org.nuxeo.erdf.linky.note.NotableDocumentFactory"/>
    </extension>
     
 </component>
